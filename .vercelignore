@@ -1,0 +1,6 @@
+_backup
+*.py
+*.pyc
+__pycache__
+.git
+.gitignore

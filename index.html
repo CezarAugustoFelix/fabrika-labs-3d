@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fabrika Labs 3D — Impressão 3D e Prototipagem em Londrina - PR</title>
+  <meta name="description" content="Estúdio de impressão 3D em Londrina - PR. Peças técnicas e de reposição, protótipos de engenharia, brindes corporativos e decoração. Orçamento rápido pelo WhatsApp (43) 99985-9044.">
+  <link rel="icon" type="image/svg+xml" href="assets/logos/fabrika_icon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVEGAÇÃO
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="#inicio" class="nav-brand" aria-label="Fabrika Labs 3D">
+        <img id="brandLogo" class="brand-logo-img" src="assets/logos/fabrika_horizontal_dark.svg" alt="Fabrika Labs 3D Logo">
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#trending" class="nav-link">Catálogo de Peças</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#orcamento" class="nav-link">Orçamento</a></li>
+          <li><a href="#portfolio" class="nav-link">Galeria</a></li>
+          <li><a href="#como-funciona" class="nav-link">Como Pedir</a></li>
+          <li><a href="#faq" class="nav-link">Dúvidas</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20pe%C3%A7a%20em%20impress%C3%A3o%203D." target="_blank" rel="noopener" class="btn btn-primary btn-nav-wa">
+          <svg class="wa-ico" viewBox="0 0 24 24" width="1.15em" height="1.15em" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.44-9.43a9.38 9.38 0 0 1 9.43 9.44c0 5.2-4.24 9.43-9.44 9.43m8.03-17.47A11.3 11.3 0 0 0 12.05.7C5.8.7.7 5.79.7 12.05c0 2 .52 3.95 1.52 5.67L.6 23.3l5.7-1.5a11.3 11.3 0 0 0 5.75 1.47c6.26 0 11.35-5.1 11.35-11.35 0-3.03-1.18-5.88-3.32-8.02"/></svg>
+          <span class="btn-text-desktop">WhatsApp (43) 99985-9044</span>
+          <span class="btn-text-mobile">WhatsApp</span>
+        </a>
+        <button id="mobileMenuToggle" class="btn-menu-toggle" aria-label="Abrir Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-row">
+            <span class="mono-tag"><span class="live-pulse"></span>IMPRESSÃO 3D · LONDRINA - PR</span>
+          </div>
+
+          <h1 class="hero-title">
+            Peças em impressão 3D, do jeito que você precisa. <span class="highlight">Ideias ganham forma.</span>
+          </h1>
+
+          <p class="hero-description">
+            Reposição de peças quebradas, suportes, brindes com logo e decoração multicor. Mande a foto, o link ou o arquivo e receba o orçamento no WhatsApp.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#trending" class="btn btn-primary">
+              🔥 Ver Catálogo de Peças & Valores
+            </a>
+            <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20pe%C3%A7a%20em%20impress%C3%A3o%203D." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <svg class="wa-ico" viewBox="0 0 24 24" width="1.1em" height="1.1em" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.44-9.43a9.38 9.38 0 0 1 9.43 9.44c0 5.2-4.24 9.43-9.44 9.43m8.03-17.47A11.3 11.3 0 0 0 12.05.7C5.8.7.7 5.79.7 12.05c0 2 .52 3.95 1.52 5.67L.6 23.3l5.7-1.5a11.3 11.3 0 0 0 5.75 1.47c6.26 0 11.35-5.1 11.35-11.35 0-3.03-1.18-5.88-3.32-8.02"/></svg> Pedir Peça no WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Card Visual 3D Interativo -->
+        <div class="hero-visual-card">
+          <div class="live-indicator" style="margin-bottom: 12px; align-self: flex-start;"><span class="live-pulse"></span> ORÇAMENTO GRÁTIS · RESPOSTA NO MESMO DIA</div>
+
+          <div class="printer-interactive-box">
+            <img src="assets/img/item_bulldog_multicolor.png" alt="Bulldog low-poly multicor impresso em 3D" class="hero-photo" loading="eager">
+          </div>
+
+          <div class="telemetry-box">
+            <div class="telemetry-row">
+              <span class="telemetry-label">PREÇOS:</span>
+              <span class="telemetry-value">A partir de R$ 5/un em lote</span>
+            </div>
+            <div class="telemetry-row">
+              <span class="telemetry-label">PRAZO:</span>
+              <span class="telemetry-value">24h a 48h (peças simples)</span>
+            </div>
+            <div class="telemetry-row">
+              <span class="telemetry-label">MATERIAIS:</span>
+              <span class="telemetry-value">PETG Reforçado, PLA Rígido, TPU Flex</span>
+            </div>
+            <div class="telemetry-row">
+              <span class="telemetry-label">LOCALIDADE:</span>
+              <span class="telemetry-value">Londrina · PR (Retirada ou Envio)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BARRA DE ESTATÍSTICAS E CONFIANÇA
+         ========================================================================== -->
+    <div class="stats-strip">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <h3 style="color: var(--slot-1);">Reposição</h3>
+          <p>Peças que quebraram e saíram de linha</p>
+        </div>
+        <div class="stat-item">
+          <h3 style="color: var(--slot-2);">Sem Mínimo</h3>
+          <p>De 1 peça a lotes comerciais (pedido mínimo R$ 20)</p>
+        </div>
+        <div class="stat-item">
+          <h3 style="color: var(--slot-3);">PETG Técnico</h3>
+          <p>Alta resistência mecânica e durabilidade</p>
+        </div>
+        <div class="stat-item">
+          <h3 style="color: var(--slot-4);">Londrina · PR</h3>
+          <p>Retirada rápida ou Sedex para todo o Brasil</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         SEÇÃO TRENDING: CATÁLOGO DE PEÇAS & O QUE MAIS VENDEMOS
+         ========================================================================== -->
+    <section class="section" id="trending">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Catálogo de Peças & O Que Mais Vendemos</div>
+          <h2 class="section-title">Peças em Alta & Faixas de Preço</h2>
+          <p class="section-desc">
+            Você não precisa se preocupar com software de fatiamento nem cálculos técnicos: nós resolvemos tudo internamente. Confira a faixa de preço dos modelos mais procurados (o valor final depende do tamanho e do material) e faça seu pedido direto no WhatsApp:
+          </p>
+        </div>
+
+        <div class="trending-grid">
+          <!-- Trending 1: Peças de Reposição Quebradas -->
+          <div class="trending-card highlight-border">
+            <div class="trending-badge" style="background: var(--slot-4); color: #fff;">ALTA PROCURA & UTILIDADE</div>
+            <div class="trending-icon-header">⚙️</div>
+            <h3>Peças de Reposição & Componentes</h3>
+            <p>Aquela pecinha de plástico que quebrou da geladeira, máquina de lavar, ar-condicionado, carro ou ferramenta e não existe mais no mercado. Fabricamos em PETG ultra-resistente.</p>
+            <div class="trending-price-tag">
+              <span class="label">FAIXA DE PREÇO:</span>
+              <span class="val" style="color: var(--slot-4);">R$ 30 a R$ 90 <small>+ modelagem a partir de R$ 40, se precisar</small></span>
+            </div>
+            <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Preciso%20repor%20uma%20pe%C3%A7a%20quebrada.%20Podem%20avaliar%20a%20foto%2Fmedidas%3F" target="_blank" rel="noopener" class="btn btn-primary trending-btn">
+              Avaliar Minha Peça no WhatsApp →
+            </a>
+          </div>
+
+          <!-- Trending 2: Suporte de Headphone & Setup Gamer -->
+          <div class="trending-card">
+            <div class="trending-badge">SETUP & BANCADA</div>
+            <div class="trending-icon-header">🎧</div>
+            <h3>Suportes de Fone, Controles & Setup</h3>
+            <p>Organize sua mesa gamer, home office ou bancada de trabalho. Suportes de fone de ouvido, docks para celular, bases para controles de PS5/Xbox e organizadores modulares.</p>
+            <div class="trending-price-tag">
+              <span class="label">FAIXA DE PREÇO:</span>
+              <span class="val">R$ 39 a R$ 89</span>
+            </div>
+            <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Vi%20no%20site%20e%20quero%20um%20or%C3%A7amento%20de%20Suporte%20de%20Headphone%2FControle." target="_blank" rel="noopener" class="btn btn-secondary trending-btn">
+              Pedir Suporte no WhatsApp →
+            </a>
+          </div>
+
+          <!-- Trending 3: Chaveiros & Brindes com Logo -->
+          <div class="trending-card">
+            <div class="trending-badge">EMPRESAS & MERCH</div>
+            <div class="trending-icon-header">🏷️</div>
+            <h3>Chaveiros, Tags & Brindes com Logo</h3>
+            <p>Perfeito para empresas, imobiliárias, academias, eventos e comércios. Logotipo e QR Code em alto relevo com acabamento impecável e alta durabilidade.</p>
+            <div class="trending-price-tag">
+              <span class="label">FAIXA DE PREÇO:</span>
+              <span class="val">R$ 12 a R$ 18 <small>avulso · R$ 4,50 a R$ 8/un em lotes de 50+</small></span>
+            </div>
+            <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Vi%20no%20site%20e%20quero%20um%20or%C3%A7amento%20de%20Chaveiros%2FBrindes%20Personalizados." target="_blank" rel="noopener" class="btn btn-secondary trending-btn">
+              Cotar Lote no WhatsApp →
+            </a>
+          </div>
+
+          <!-- Trending 4: Dragões & Articulados Flexi -->
+          <div class="trending-card highlight-border">
+            <div class="trending-badge" style="background: var(--slot-2); color: #fff;">TRENDING VIRAL</div>
+            <div class="trending-icon-header">🐉</div>
+            <h3>Dragões & Articulados Flexi</h3>
+            <p>Sucesso absoluto de vendas e nas redes sociais! A peça já sai impressa com dezenas de articulações fluidas e resistentes, sem montagem nem colagem.</p>
+            <div class="trending-price-tag">
+              <span class="label">FAIXA DE PREÇO:</span>
+              <span class="val" style="color: var(--slot-2);">R$ 35 a R$ 129 <small>do pequeno ao gigante</small></span>
+            </div>
+            <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Vi%20no%20site%20e%20quero%20um%20or%C3%A7amento%20de%20Drag%C3%A3o%20Articulado%20Flexi." target="_blank" rel="noopener" class="btn btn-primary trending-btn">
+              Pedir Dragão no WhatsApp →
+            </a>
+          </div>
+
+          <!-- Trending 5: Vasos Geométricos Espirais -->
+          <div class="trending-card">
+            <div class="trending-badge">DECORAÇÃO MODERNA</div>
+            <div class="trending-icon-header">🏺</div>
+            <h3>Vasos Espirais Paramétricos</h3>
+            <p>Queridinho de arquitetos e decoração de interiores. Design helicoidal com efeito visual impressionante em filamento Silk acetinado ou acabamento fosco.</p>
+            <div class="trending-price-tag">
+              <span class="label">FAIXA DE PREÇO:</span>
+              <span class="val">R$ 45 a R$ 99</span>
+            </div>
+            <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Vi%20no%20site%20e%20quero%20um%20or%C3%A7amento%20de%20Vaso%20Espiral%20Geom%C3%A9trico." target="_blank" rel="noopener" class="btn btn-secondary trending-btn">
+              Pedir Vaso no WhatsApp →
+            </a>
+          </div>
+
+          <!-- Trending 6: Peças Especiais Sob Medida -->
+          <div class="trending-card">
+            <div class="trending-badge">PROJETOS ESPECIAIS</div>
+            <div class="trending-icon-header">📐</div>
+            <h3>Peças Especiais Sob Medida</h3>
+            <p>Tem apenas a ideia ou a peça física desgastada? Tiramos medidas com paquímetro digital, modelamos em software 3D e fabricamos a peça pronta para uso.</p>
+            <div class="trending-price-tag">
+              <span class="label">FAIXA DE PREÇO:</span>
+              <span class="val">Modelagem a partir de R$ 50 <small>+ impressão</small></span>
+            </div>
+            <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Tenho%20uma%20ideia%2Fpe%C3%A7a%20especial%20para%20fazer%20sob%20medida.%20Podem%20avaliar%3F" target="_blank" rel="noopener" class="btn btn-secondary trending-btn">
+              Mandar Projeto no WhatsApp →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVIÇOS — SOLUÇÕES COMERCIAIS
+         ========================================================================== -->
+    <section class="section" id="servicos" style="background: var(--surface);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Soluções da Fabrika</div>
+          <h2 class="section-title">O Que Produzimos Para Você</h2>
+          <p class="section-desc">
+            Trabalhamos com materiais de alta performance. De uma única peça urgente a lotes de centenas de unidades.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1: Peças Técnicas -->
+          <div class="service-card slot-4">
+            <span class="slot-indicator-badge">MECÂNICA & UTILIDADES</span>
+            <div class="service-icon-box">⚙️</div>
+            <h3>Peças Técnicas & Reposição</h3>
+            <p>
+              Substituição de peças plásticas quebradas que saíram de linha, engrenagens, suportes de bancada, gabaritos e carcaças sob medida em PETG resistente.
+            </p>
+            <div class="service-meta">
+              <span>PETG de alta dureza</span>
+              <span>Tolerância rigorosa</span>
+            </div>
+          </div>
+
+          <!-- 2: Brindes Corporativos -->
+          <div class="service-card slot-2">
+            <span class="slot-indicator-badge">EMPRESAS & MERCH</span>
+            <div class="service-icon-box">🎁</div>
+            <h3>Brindes & Lotes Corporativos</h3>
+            <p>
+              Chaveiros em lote com a logo da sua marca em relevo, placas comemorativas, troféus exclusivos e lembranças de eventos com entrega rápida.
+            </p>
+            <div class="service-meta">
+              <span>Lotes de 20 a 500+ un</span>
+              <span>Preço progressivo</span>
+            </div>
+          </div>
+
+          <!-- 3: Prototipagem & Engenharia -->
+          <div class="service-card slot-1">
+            <span class="slot-indicator-badge">ENGENHARIA & INVENTORES</span>
+            <div class="service-icon-box">💡</div>
+            <h3>Prototipagem Rápida</h3>
+            <p>
+              Tire sua ideia da tela e valide a ergonomia, encaixe e resistência antes de investir em moldes caros. Ideal para engenheiros, arquitetos e startups.
+            </p>
+            <div class="service-meta">
+              <span>Resolução até 0.08mm</span>
+              <span>Iterações rápidas</span>
+            </div>
+          </div>
+
+          <!-- 4: Decoração & Colecionáveis -->
+          <div class="service-card slot-3">
+            <span class="slot-indicator-badge">DESIGN & INTERIORES</span>
+            <div class="service-icon-box">🏠</div>
+            <h3>Decoração & Colecionáveis</h3>
+            <p>
+              Vasos espirais, estatuetas geométricas, luminárias texturizadas e miniaturas colecionáveis com acabamento acetinado de alto padrão.
+            </p>
+            <div class="service-meta">
+              <span>PLA Silk & Matte</span>
+              <span>Design autoral</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ORÇAMENTO RÁPIDO & DESCOMPLICADO (SEM CONTAS COMPLEXAS NA TELA)
+         ========================================================================== -->
+    <section class="section calculator-section" id="orcamento">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Sem Complicação</div>
+          <h2 class="section-title">Como Obter Seu Orçamento em Minutos</h2>
+          <p class="section-desc">
+            Você não precisa entender de software 3D nem de cálculos de fatiamento. Toda a parte técnica fica por nossa conta.
+          </p>
+        </div>
+
+        <div class="fast-quote-wrapper">
+          <div class="fast-quote-steps">
+            <div class="fast-step-item">
+              <div class="fast-step-num">1</div>
+              <div>
+                <h4>Envie sua ideia ou arquivo</h4>
+                <p>Mande uma foto, desenho, link do MakerWorld/Thingiverse ou o arquivo (.STL / .3MF / .STEP) no WhatsApp.</p>
+              </div>
+            </div>
+
+            <div class="fast-step-item">
+              <div class="fast-step-num">2</div>
+              <div>
+                <h4>Análise & Fatiamento Rápido</h4>
+                <p>Nossa equipe fatia seu modelo no software oficial da Bambu Lab e calcula o tempo e gramas exatos em minutos.</p>
+              </div>
+            </div>
+
+            <div class="fast-step-item">
+              <div class="fast-step-num">3</div>
+              <div>
+                <h4>Aprovação e Produção</h4>
+                <p>Com o valor e prazo aprovados, colocamos a máquina para rodar com fotos do processo para você acompanhar.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="fast-quote-box">
+            <div class="fast-quote-header">
+              <span class="mono-tag" style="color: #25D366; border-color: #25D366;">CANAL DIRETO</span>
+              <h3>Fale com Quem Imprime</h3>
+              <p>Envie sua mensagem e receba a avaliação de viabilidade e preço hoje mesmo.</p>
+            </div>
+
+            <div class="quote-contact-badge">
+              <div class="number-display">📱 (43) 99985-9044</div>
+              <div class="location-display">📍 Londrina - PR (Atendimento para todo o Brasil)</div>
+            </div>
+
+            <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20impress%C3%A3o%203D.%20Tenho%20um%20projeto%2Fideia%20para%20avaliar." target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%; font-size: 1.05rem; padding: 16px;">
+              <svg class="wa-ico" viewBox="0 0 24 24" width="1.1em" height="1.1em" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.44-9.43a9.38 9.38 0 0 1 9.43 9.44c0 5.2-4.24 9.43-9.44 9.43m8.03-17.47A11.3 11.3 0 0 0 12.05.7C5.8.7.7 5.79.7 12.05c0 2 .52 3.95 1.52 5.67L.6 23.3l5.7-1.5a11.3 11.3 0 0 0 5.75 1.47c6.26 0 11.35-5.1 11.35-11.35 0-3.03-1.18-5.88-3.32-8.02"/></svg> Chamar no WhatsApp Agora
+            </a>
+            <p style="text-align: center; font-size: 0.8rem; color: var(--muted); margin-top: 12px;">
+              Resposta rápida em horário comercial.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PORTFÓLIO / VITRINE DE PROJETOS REAIS
+         ========================================================================== -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Inspirações</div>
+          <h2 class="section-title">O Que Dá Pra Fazer</h2>
+          <p class="section-desc">
+            Ideias e aplicações do que produzimos. Imagens ilustrativas — fotos das peças reais em breve no Instagram @fabrikalabs3d.
+          </p>
+        </div>
+
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">Todos os Projetos</button>
+          <button class="filter-btn" data-filter="decoracao">Decoração</button>
+          <button class="filter-btn" data-filter="personalizado">Personalizados</button>
+          <button class="filter-btn" data-filter="prototipo">Protótipos</button>
+          <button class="filter-btn" data-filter="funcional">Funcionais</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Item 1: Peças Técnicas & Reposição -->
+          <div class="portfolio-card" data-category="funcional">
+            <div class="portfolio-thumb">
+              <img src="assets/img/item_engrenagem_tecnica.jpg" alt="Engrenagem mecânica e peça de reposição impressa em 3D em PETG">
+              <span class="mono-tag portfolio-overlay-tag" style="background: rgba(12,13,18,0.85); color: var(--slot-4);">PEÇA TÉCNICA</span>
+            </div>
+            <div class="portfolio-body">
+              <h4>Peças de Reposição & Engrenagens</h4>
+              <p>Substituição de peças mecânicas e engrenagens que saíram de linha. Fabricadas em PETG reforçado com alta resistência ao atrito.</p>
+              <div class="portfolio-tech-specs">
+                <span>⚡ PETG Reforçado · Medidas com Paquímetro</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Suporte Gamer Headphone & Controle -->
+          <div class="portfolio-card" data-category="funcional">
+            <div class="portfolio-thumb">
+              <img src="assets/img/item_suporte_headphone.jpg" alt="Suporte de fone de ouvido e controle de videogame impresso em 3D">
+              <span class="mono-tag portfolio-overlay-tag" style="background: rgba(12,13,18,0.85); color: var(--slot-4);">SETUP & OFFICE</span>
+            </div>
+            <div class="portfolio-body">
+              <h4>Suporte de Fone & Controle</h4>
+              <p>Organize sua mesa gamer ou home office. Base robusta sem montagem para headphone e controles de videogame.</p>
+              <div class="portfolio-tech-specs">
+                <span>⚡ PLA Fosco · Alta Durabilidade · 0,2 mm</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Chaveiros em Lote com Logo -->
+          <div class="portfolio-card" data-category="personalizado">
+            <div class="portfolio-thumb">
+              <img src="assets/img/item_chaveiros_lote.jpg" alt="Lote de chaveiros corporativos impressos em 3D com logo em relevo">
+              <span class="mono-tag portfolio-overlay-tag" style="background: rgba(12,13,18,0.85); color: var(--slot-2);">EMPRESAS</span>
+            </div>
+            <div class="portfolio-body">
+              <h4>Chaveiros com Logo em Lote</h4>
+              <p>Perfeito para empresas, oficinas, lojas e eventos. Logotipo em alto relevo multicor com argolas metálicas inclusas.</p>
+              <div class="portfolio-tech-specs">
+                <span>⚡ Lotes de 20 a 500+ un · Alta Definição</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Dragão Articulado Flexi -->
+          <div class="portfolio-card" data-category="decoracao">
+            <div class="portfolio-thumb">
+              <img src="assets/img/item_dragao_articulado.jpg" alt="Dragão articulado flexi impresso em 3D em filamento Rainbow Silk">
+              <span class="mono-tag portfolio-overlay-tag" style="background: rgba(12,13,18,0.85); color: var(--slot-2);">VIRAL TREND</span>
+            </div>
+            <div class="portfolio-body">
+              <h4>Dragões & Articulados Flexi</h4>
+              <p>Sucesso absoluto nas redes! Já sai da impressora com articulações fluidas prontas, sem pinos e sem montagem manual.</p>
+              <div class="portfolio-tech-specs">
+                <span>⚡ PLA Rainbow Silk · Movimento Fluido</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5: Vaso Espiral -->
+          <div class="portfolio-card" data-category="decoracao">
+            <div class="portfolio-thumb">
+              <img src="assets/img/item_vaso_espiral.png" alt="Vaso Espiral Fluid Art">
+              <span class="mono-tag portfolio-overlay-tag" style="background: rgba(12,13,18,0.85); color: var(--slot-3);">DECORAÇÃO</span>
+            </div>
+            <div class="portfolio-body">
+              <h4>Vaso Helicoidal Paramétrico</h4>
+              <p>Geometria moderna produzida em filamento Silk acetinado com efeito estético premium e excelente vedação.</p>
+              <div class="portfolio-tech-specs">
+                <span>⚡ PLA Silk · 0,16 mm · Brilho Acetinado</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6: Bulldog Multicolor -->
+          <div class="portfolio-card" data-category="decoracao">
+            <div class="portfolio-thumb">
+              <img src="assets/img/item_bulldog_multicolor.png" alt="Bulldog Francês Geométrico Low-Poly">
+              <span class="mono-tag portfolio-overlay-tag" style="background: rgba(12,13,18,0.85); color: var(--slot-1);">COLECIONÁVEIS</span>
+            </div>
+            <div class="portfolio-body">
+              <h4>Bulldog Low-Poly Multifacetado</h4>
+              <p>Escultura geométrica moderna com transições de cores e presença marcante em estantes e mesas.</p>
+              <div class="portfolio-tech-specs">
+                <span>⚡ PLA Multicor · Acabamento Caprichado</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TECNOLOGIA — BAMBU LAB A1 + AMS LITE
+         ========================================================================== -->
+    <section class="section tech-section" id="tecnologia" style="background: var(--surface);">
+      <div class="container tech-grid">
+        <div class="tech-info">
+          <div class="section-subtitle">Nossa Máquina</div>
+          <h2 class="section-title">Bambu Lab A1 Combo</h2>
+          <p class="section-desc">
+            A Fabrika Labs utiliza uma das impressoras 3D mais elogiadas do mundo. Precisão industrial e velocidade acelerada para entregar sua peça no prazo.
+          </p>
+
+          <ul class="tech-features-list">
+            <li class="tech-feature-item">
+              <div class="tech-feature-icon">⚡</div>
+              <div>
+                <h4>Troca Automática de Filamentos</h4>
+                <p>O sistema AMS Lite permite alternar cores e materiais sem cola nem pintura frágil, fundindo o material direto na peça.</p>
+              </div>
+            </li>
+            <li class="tech-feature-item">
+              <div class="tech-feature-icon">🎯</div>
+              <div>
+                <h4>Calibração Ativa de Fluxo e Bico</h4>
+                <p>Superfícies incrivelmente lisas, camadas consistentes e tolerâncias milimétricas para peças que realmente encaixam.</p>
+              </div>
+            </li>
+            <li class="tech-feature-item">
+              <div class="tech-feature-icon">🛡️</div>
+              <div>
+                <h4>Materiais para Todas as Necessidades</h4>
+                <p>Trabalhamos com PLA para modelos decorativos e detalhados, PETG para peças mecânicas expostas ao sol/esforço, e TPU para itens flexíveis de borracha.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tech-visual-frame">
+          <img src="assets/img/destaque_cores.png" alt="Cores e Filamentos da Fabrika Labs">
+          <div style="margin-top: 18px; font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted);">
+            PALETA OFICIAL DE MARCA & FILAMENTOS DIVERSOS SOB DEMANDA
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         COMO FUNCIONA O PROCESSO
+         ========================================================================== -->
+    <section class="section" id="como-funciona">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Passo a Passo</div>
+          <h2 class="section-title">Do Arquivo à Peça Pronta</h2>
+          <p class="section-desc">Quatro etapas descomplicadas para tirar sua ideia do papel:</p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h4>Envie o que Você Tem</h4>
+            <p>Pode ser um arquivo 3D (.STL, .STEP, .3MF), um link do Thingiverse/MakerWorld, ou simplesmente uma foto e medidas.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h4>Orçamento Rápido</h4>
+            <p>Analisamos a peça no software fatiador da Bambu Lab e passamos o valor e prazo de produção direto no WhatsApp.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h4>Impressão Caprichada</h4>
+            <p>Sua peça é impressa na Bambu Lab A1 com monitoramento contínuo para garantir máxima resistência e acabamento.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">04</div>
+            <h4>Retirada ou Envio</h4>
+            <p>Você pode retirar pessoalmente em Londrina - PR ou enviamos com proteção reforçada para qualquer cidade do Brasil.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SOBRE NÓS / CONCEITO DA MARCA
+         ========================================================================== -->
+    <section class="section" id="sobre" style="background: var(--surface);">
+      <div class="container" style="max-width: 900px; text-align: center;">
+        <span class="mono-tag" style="margin-bottom: 16px; color: var(--slot-2);">LONDRINA - PR · FUNDADA EM 2026</span>
+        <h2 class="section-title">A História da Fabrika Labs</h2>
+        <p style="font-size: 1.15rem; color: var(--muted); line-height: 1.8; margin-bottom: 24px;">
+          "A Fabrika Labs nasce de uma Bambu Lab A1 com AMS Lite: quatro rolos de filamento que se alternam para construir uma peça camada por camada. As quatro cores da nossa marca são exatamente esses quatro rolos."
+        </p>
+        <p style="font-size: 1rem; color: var(--muted); line-height: 1.8;">
+          <strong>Fabrika</strong>, com K, é uma fábrica com personalidade. <strong>Labs</strong> traz o lado de experimentar, resolver problemas e materializar projetos. Atendemos indústrias, comércios locais, profissionais liberais e pessoas que simplesmente querem presentear ou transformar ideias em produtos reais.
+        </p>
+
+        <div style="margin-top: 40px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+          <div class="mono-tag">📍 Londrina, Paraná</div>
+          <div class="mono-tag">📦 Entregas para todo o Brasil</div>
+          <div class="mono-tag">⚡ WhatsApp: (43) 99985-9044</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PERGUNTAS FREQUENTES (FAQ)
+         ========================================================================== -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Tire Suas Dúvidas</div>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+          <p class="section-desc">Confira as respostas para as principais dúvidas sobre nossos serviços:</p>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Vocês imprimem apenas em 4 cores ou fazem peças de cor única?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <strong>Imprimimos em qualquer cor!</strong> A maioria das peças que produzimos é monocromática (preto fosco, branco, cinza, vermelho, azul, etc.). As 4 cores do nosso logotipo representam nossa identidade visual e nossa capacidade de fazer peças multicoloridas quando você desejar!
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>E se eu não tiver o arquivo 3D pronto?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Sem problemas! Se for uma peça quebrada, você pode nos mandar fotos e medidas com paquímetro. Se for um produto novo, nós podemos <strong>modelar em 3D para você</strong> a partir de um esboço ou referência.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Vocês produzem em grande quantidade para empresas?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Sim! Produzimos lotes de brindes, chaveiros corporativos, peças promocionais e kits para feiras e eventos com descontos progressivos por quantidade.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Qual o prazo médio de produção e entrega?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Peças simples e protótipos unitários costumam ficar prontos em <strong>24 a 48 horas</strong>. Em Londrina - PR oferecemos retirada imediata ou envio via motoboy. Para outras regiões enviamos via Sedex/PAC com rastreio.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Como peço um orçamento agora?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              Basta clicar no botão do WhatsApp ou adicionar o número <strong>(43) 99985-9044</strong>. Mande o que você precisa e respondemos rapidamente com o valor e prazo!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       RODAPÉ OFICIAL
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logos/fabrika_horizontal_light.svg" alt="Fabrika Labs Logo" style="height: 44px; width: auto; filter: brightness(1.2);">
+          <p>
+            Fabrika Labs 3D — Estúdio de manufatura aditiva e impressão 3D. Do projeto digital à realidade palpável.
+          </p>
+          <div style="margin-top: 14px;">
+            <span class="mono-tag" style="border-color: var(--slot-1); color: var(--slot-1);">LONDRINA · PR</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Serviços</h5>
+          <ul>
+            <li><a href="#servicos">Peças Técnicas & Reposição</a></li>
+            <li><a href="#servicos">Brindes Corporativos</a></li>
+            <li><a href="#servicos">Prototipagem & Engenharia</a></li>
+            <li><a href="#servicos">Decoração & Arte</a></li>
+            <li><a href="#trending">Produtos em Alta</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Tecnologia</h5>
+          <ul>
+            <li><a href="#tecnologia">Bambu Lab A1 Combo</a></li>
+            <li><a href="#tecnologia">AMS Lite</a></li>
+            <li><a href="#tecnologia">Filamentos PLA / PETG / TPU</a></li>
+            <li><a href="#orcamento">Pedir Orçamento</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contato & Redes</h5>
+          <ul>
+            <li><a href="https://wa.me/5543999859044" target="_blank">WhatsApp: (43) 99985-9044</a></li>
+            <li><a href="https://www.instagram.com/fabrikalabs3d/" target="_blank">Instagram: @fabrikalabs3d</a></li>
+            <li><span>Londrina - PR, Brasil</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 FABRIKA LABS 3D. Todos os direitos reservados.
+        </div>
+        <div>
+          IDEIAS GANHAM FORMA
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante do WhatsApp Oficial -->
+  <a href="https://wa.me/5543999859044?text=Ol%C3%A1%20Fabrika%20Labs!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20impress%C3%A3o%203D." class="floating-whatsapp" target="_blank" rel="noopener" aria-label="Fale conosco no WhatsApp (43) 99985-9044" title="Falar no WhatsApp (43) 99985-9044"><svg class="wa-ico" viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.44-9.43a9.38 9.38 0 0 1 9.43 9.44c0 5.2-4.24 9.43-9.44 9.43m8.03-17.47A11.3 11.3 0 0 0 12.05.7C5.8.7.7 5.79.7 12.05c0 2 .52 3.95 1.52 5.67L.6 23.3l5.7-1.5a11.3 11.3 0 0 0 5.75 1.47c6.26 0 11.35-5.1 11.35-11.35 0-3.03-1.18-5.88-3.32-8.02"/></svg>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
